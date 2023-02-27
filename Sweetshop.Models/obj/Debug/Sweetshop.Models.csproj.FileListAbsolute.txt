@@ -1,0 +1,15 @@
+C:\Users\Lenovo\source\repos\Sweetshop\Sweetshop.Models\bin\Debug\Sweetshop.Models.dll.config
+C:\Users\Lenovo\source\repos\Sweetshop\Sweetshop.Models\bin\Debug\Sweetshop.Models.dll
+C:\Users\Lenovo\source\repos\Sweetshop\Sweetshop.Models\bin\Debug\Sweetshop.Models.pdb
+C:\Users\Lenovo\source\repos\Sweetshop\Sweetshop.Models\bin\Debug\EntityFramework.dll
+C:\Users\Lenovo\source\repos\Sweetshop\Sweetshop.Models\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Lenovo\source\repos\Sweetshop\Sweetshop.Models\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Lenovo\source\repos\Sweetshop\Sweetshop.Models\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Lenovo\source\repos\Sweetshop\Sweetshop.Models\bin\Debug\EntityFramework.xml
+C:\Users\Lenovo\source\repos\Sweetshop\Sweetshop.Models\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Lenovo\source\repos\Sweetshop\Sweetshop.Models\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Lenovo\source\repos\Sweetshop\Sweetshop.Models\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Lenovo\source\repos\Sweetshop\Sweetshop.Models\obj\Debug\Sweetshop.Models.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\source\repos\Sweetshop\Sweetshop.Models\obj\Debug\Sweetshop.Models.csproj.CopyComplete
+C:\Users\Lenovo\source\repos\Sweetshop\Sweetshop.Models\obj\Debug\Sweetshop.Models.dll
+C:\Users\Lenovo\source\repos\Sweetshop\Sweetshop.Models\obj\Debug\Sweetshop.Models.pdb
