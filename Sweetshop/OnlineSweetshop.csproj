@@ -135,6 +135,7 @@
     <Compile Include="Class1.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\AddProductsController.cs" />
+    <Compile Include="Controllers\AdminController.cs" />
     <Compile Include="Controllers\CategoriesController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\RegistrationsController.cs" />
@@ -153,7 +154,33 @@
     <Compile Include="Migrations\202302271130370_reg.Designer.cs">
       <DependentUpon>202302271130370_reg.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202302271655132_new.cs" />
+    <Compile Include="Migrations\202302271655132_new.Designer.cs">
+      <DependentUpon>202302271655132_new.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202302271702188_data.cs" />
+    <Compile Include="Migrations\202302271702188_data.Designer.cs">
+      <DependentUpon>202302271702188_data.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202302271754390_reg1.cs" />
+    <Compile Include="Migrations\202302271754390_reg1.Designer.cs">
+      <DependentUpon>202302271754390_reg1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202302280323506_admin.cs" />
+    <Compile Include="Migrations\202302280323506_admin.Designer.cs">
+      <DependentUpon>202302280323506_admin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202302280421076_loginpage.cs" />
+    <Compile Include="Migrations\202302280421076_loginpage.Designer.cs">
+      <DependentUpon>202302280421076_loginpage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202302281510364_slide.cs" />
+    <Compile Include="Migrations\202302281510364_slide.Designer.cs">
+      <DependentUpon>202302281510364_slide.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Models\AddToCart.cs" />
+    <Compile Include="Models\Admin.cs" />
     <Compile Include="Models\Category.cs" />
     <Compile Include="Models\Login.cs" />
     <Compile Include="Models\Registration.cs" />
@@ -166,6 +193,8 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="gitignore.txt" />
+    <Content Include="gitignore1.txt" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
     <Content Include="Scripts\bootstrap.js" />
@@ -200,17 +229,18 @@
     <Content Include="Views\Categories\Details.cshtml" />
     <Content Include="Views\Categories\Edit.cshtml" />
     <Content Include="Views\Categories\Index.cshtml" />
-    <Content Include="Views\AddProducts\Create.cshtml" />
-    <Content Include="Views\AddProducts\Delete.cshtml" />
-    <Content Include="Views\AddProducts\Details.cshtml" />
-    <Content Include="Views\AddProducts\Edit.cshtml" />
-    <Content Include="Views\AddProducts\Index.cshtml" />
-    <Content Include="Views\Account\Login.cshtml" />
     <Content Include="Views\Registrations\Create.cshtml" />
     <Content Include="Views\Registrations\Delete.cshtml" />
     <Content Include="Views\Registrations\Details.cshtml" />
     <Content Include="Views\Registrations\Edit.cshtml" />
     <Content Include="Views\Registrations\Index.cshtml" />
+    <Content Include="Views\Admin\Index.cshtml" />
+    <Content Include="Views\AddProducts\Create.cshtml" />
+    <Content Include="Views\AddProducts\Delete.cshtml" />
+    <Content Include="Views\AddProducts\Details.cshtml" />
+    <Content Include="Views\AddProducts\Edit.cshtml" />
+    <Content Include="Views\AddProducts\Index.cshtml" />
+    <Content Include="Views\Account\UserLogin.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -237,6 +267,24 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202302271130370_reg.resx">
       <DependentUpon>202302271130370_reg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202302271655132_new.resx">
+      <DependentUpon>202302271655132_new.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202302271702188_data.resx">
+      <DependentUpon>202302271702188_data.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202302271754390_reg1.resx">
+      <DependentUpon>202302271754390_reg1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202302280323506_admin.resx">
+      <DependentUpon>202302280323506_admin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202302280421076_loginpage.resx">
+      <DependentUpon>202302280421076_loginpage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202302281510364_slide.resx">
+      <DependentUpon>202302281510364_slide.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

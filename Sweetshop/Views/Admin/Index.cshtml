@@ -1,0 +1,24 @@
+﻿@model Sweetshop.Models.Admin
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<div>
+    @Html.LabelFor(m => m.Username)
+    @Html.TextBoxFor(m => m.Username)
+</div>
+<div>
+    @Html.LabelFor(m => m.Password)
+    @Html.PasswordFor(m => m.Password)
+</div>
+<div>
+    <input type="submit" value="Log in" />
+</div>
+
+
+@if (ViewBag.Error != null)
+{
+    <div class="error">@ViewBag.Error</div>}
+

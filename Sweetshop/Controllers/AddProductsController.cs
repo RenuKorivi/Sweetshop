@@ -10,6 +10,7 @@ using Sweetshop.Models;
 
 namespace Sweetshop.Controllers
 {
+    [Authorize(Roles = "Admin")]
     public class AddProductsController : Controller
     {
         private SweetShopContext db = new SweetShopContext();
@@ -48,7 +49,7 @@ namespace Sweetshop.Controllers
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "Id,Name,CategoryId,Price")] AddProduct addProduct)
+        public ActionResult Create([Bind(Include = "Id,ProductName,CategoryId,Price")] AddProduct addProduct)
         {
             if (ModelState.IsValid)
             {
@@ -82,7 +83,7 @@ namespace Sweetshop.Controllers
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "Id,Name,CategoryId,Price")] AddProduct addProduct)
+        public ActionResult Edit([Bind(Include = "Id,ProductName,CategoryId,Price")] AddProduct addProduct)
         {
             if (ModelState.IsValid)
             {

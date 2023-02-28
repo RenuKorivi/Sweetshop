@@ -4,10 +4,10 @@
     ViewBag.Title = "Index";
 }
 
-<h2>View All Products</h2>
+<h2>Index</h2>
 
 <p>
-    @Html.ActionLink("Add", "Create")
+    @Html.ActionLink("Create New", "Create")
 </p>
 <table class="table">
     <tr>
@@ -15,7 +15,7 @@
             @Html.DisplayNameFor(model => model.Category.Name)
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.Name)
+            @Html.DisplayNameFor(model => model.ProductName)
         </th>
         <th>
             @Html.DisplayNameFor(model => model.Price)
@@ -29,7 +29,7 @@
             @Html.DisplayFor(modelItem => item.Category.Name)
         </td>
         <td>
-            @Html.DisplayFor(modelItem => item.Name)
+            @Html.DisplayFor(modelItem => item.ProductName)
         </td>
         <td>
             @Html.DisplayFor(modelItem => item.Price)

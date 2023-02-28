@@ -16,9 +16,10 @@ namespace Sweetshop.Models
     public class AddProduct
     {
         public int Id { get; set; }
-        public string Name { get; set; }
-        public int CategoryId { get; set; }
+        public string ProductName { get; set; }
         [ForeignKey("Category")]
+        public int CategoryId { get; set; }
+        
         public Category Category { get; set; }
 
         public decimal Price { get; set; }
@@ -28,8 +29,9 @@ namespace Sweetshop.Models
     {
         public int Id { get; set; }
         public string Name { get; set; }
-        public int CategoryId { get; set; }
         [ForeignKey("Category")]
+        public int CategoryId { get; set; }
+       
         public Category Category { get; set; }
 
         public decimal Price { get; set; }
@@ -44,6 +46,8 @@ namespace Sweetshop.Models
         public DbSet<AddProduct> AddProducts { get; set; }
         public DbSet<ViewProducts> viewProducts { get; set; }
         public DbSet<Registration> Registrations { get; set; }
+        public DbSet<AddToCart> AddToCarts { get; set; }
+
 
 
 

@@ -88,4 +88,10 @@ C:\Users\Lenovo\source\repos\Sweetshop\Sweetshop\obj\Debug\Sweetshop.Migrations.
 C:\Users\Lenovo\source\repos\Sweetshop\Sweetshop\obj\Debug\OnlineSweetshop.csproj.GenerateResource.cache
 C:\Users\Lenovo\source\repos\Sweetshop\Sweetshop\obj\Debug\Sweetshop.Migrations.register.resources
 C:\Users\Lenovo\source\repos\Sweetshop\Sweetshop\obj\Debug\Sweetshop.Migrations.reg.resources
+C:\Users\Lenovo\source\repos\Sweetshop\Sweetshop\obj\Debug\Sweetshop.Migrations._new.resources
+C:\Users\Lenovo\source\repos\Sweetshop\Sweetshop\obj\Debug\Sweetshop.Migrations.data.resources
+C:\Users\Lenovo\source\repos\Sweetshop\Sweetshop\obj\Debug\Sweetshop.Migrations.reg1.resources
+C:\Users\Lenovo\source\repos\Sweetshop\Sweetshop\obj\Debug\Sweetshop.Migrations.admin.resources
 C:\Users\Lenovo\source\repos\Sweetshop\Sweetshop\obj\Debug\OnlineSweetshop.csproj.AssemblyReference.cache
+C:\Users\Lenovo\source\repos\Sweetshop\Sweetshop\obj\Debug\Sweetshop.Migrations.loginpage.resources
+C:\Users\Lenovo\source\repos\Sweetshop\Sweetshop\obj\Debug\Sweetshop.Migrations.slide.resources

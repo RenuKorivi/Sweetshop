@@ -26,5 +26,11 @@ namespace Sweetshop.Controllers
 
             return View();
         }
+        public ActionResult AddToCart()
+        {
+            return View();
+        }
+
+
     }
 }
