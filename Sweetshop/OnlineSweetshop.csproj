@@ -178,6 +178,10 @@
     <Compile Include="Migrations\202302281510364_slide.Designer.cs">
       <DependentUpon>202302281510364_slide.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202302281833157_pro.cs" />
+    <Compile Include="Migrations\202302281833157_pro.Designer.cs">
+      <DependentUpon>202302281833157_pro.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AddToCart.cs" />
     <Compile Include="Models\Admin.cs" />
@@ -285,6 +289,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202302281510364_slide.resx">
       <DependentUpon>202302281510364_slide.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202302281833157_pro.resx">
+      <DependentUpon>202302281833157_pro.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

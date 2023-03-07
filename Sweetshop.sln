@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.33214.272
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineSweetshop", "Sweetshop\OnlineSweetshop.csproj", "{3F95E376-9F4E-4B23-9E4E-2FF70C3C0C1E}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SweetShopOnline", "..\SweetShopOnline\SweetShopOnline.csproj", "{6982CF71-ACBA-44B7-9735-EDD08496925B}"
 EndProject
 Global
@@ -13,10 +11,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{3F95E376-9F4E-4B23-9E4E-2FF70C3C0C1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3F95E376-9F4E-4B23-9E4E-2FF70C3C0C1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3F95E376-9F4E-4B23-9E4E-2FF70C3C0C1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3F95E376-9F4E-4B23-9E4E-2FF70C3C0C1E}.Release|Any CPU.Build.0 = Release|Any CPU
 		{6982CF71-ACBA-44B7-9735-EDD08496925B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{6982CF71-ACBA-44B7-9735-EDD08496925B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6982CF71-ACBA-44B7-9735-EDD08496925B}.Release|Any CPU.ActiveCfg = Release|Any CPU
